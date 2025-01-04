@@ -1,0 +1,41 @@
+.header-icons {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+  }
+  
+  .header-icons i {
+    margin: 0 10px;
+    cursor: pointer;
+    font-size: 24px;
+  }
+  
+  .category-tabs {
+    margin-top: 20px;
+  }
+.category-tabs {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 16px;
+  }
+  
+  .category-tab {
+    padding: 8px 16px;
+    margin: 0 8px;
+    border: none;
+    background-color: #ccc;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .category-tab.active {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .product-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
