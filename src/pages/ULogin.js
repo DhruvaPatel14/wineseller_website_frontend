@@ -1,6 +1,7 @@
+import './ULogin.css';
 import React, { useState } from 'react';
 
-const Login = () => {
+const ULogin = () => {
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
 
@@ -44,4 +45,4 @@ const Login = () => {
     );
 };
 
-export default Login;
+export default ULogin;

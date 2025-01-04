@@ -1,0 +1,17 @@
+.cart-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .cart-item {
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 200px;
+    text-align: center;
+  }
+  
+  .cart-item img {
+    max-width: 100%;
+    height: auto;
+  }
